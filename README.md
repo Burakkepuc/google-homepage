@@ -5,3 +5,5 @@
 
 + Made responsive.
 + Sharpen html,css skills.
+
+Live Preview: burakkepuc.github.io/google-homepage
