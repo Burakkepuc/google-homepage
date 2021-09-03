@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,39 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <!-- GOOGLE ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/eb6e3d525a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav>
         <ul>
-        <li> <a href="#">Gmail</a></li>
-        <li> <a href="#">Images</a> </li>
-        <li> <a href="#"><span class="material-icons">
-            apps
-            </span></a> 
-        </li>
-        <li> <a href="#"><img src="random_face.jpg" alt="random_face"></a> </li>
-    </ul>
+            <li> <a href="#">Gmail</a></li>
+            <li> <a href="#">Images</a> </li>
+            <li> <a href="#"><span class="material-icons">
+                        apps
+                    </span></a>
+            </li>
+            <li> <a href="#"><img src="random_face.jpg" alt="random_face"></a> </li>
+        </ul>
     </nav>
 
     <section id="searching">
 
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-      
+
         <div class="input">
-            <input type="text" placeholder="Search..">
+            <i class="fas fa-search fa-sm"></i>
+            <input type="text">
+            <i class="fas fa-microphone"></i>
         </div>
 
         <div class="buttons">
@@ -38,18 +50,25 @@
         </div>
         <p class="searching_p">Google Offered in: <a href="#">Turkish</a></p>
     </section>
-    
-  <section id="location">
-      <h2>Turkey</h2>
-  </section>
-  <footer>
 
-      <ul class="footer_ul">
-          <li><a href="#">About</a> </li>
-          <li><a href="#">Advertising</a> </li>
-          <li><a href="#">Business</a> </li>
-          <li><a href="#">How Search works</a> </li>
-      </ul>
-  </footer>
+    <section id="location">
+        <h2>Turkey</h2>
+    </section>
+    <footer>
+
+        <ul class="footer_ul_left">
+            <li><a href="#">About</a> </li>
+            <li><a href="#">Advertising</a> </li>
+            <li><a href="#">Business</a> </li>
+            <li><a href="#">How Search works</a> </li>
+        </ul>
+
+        <ul class="footer_ul_right">
+            <li><a href="#">Privacy</a> </li>
+            <li><a href="#">Terms</a> </li>
+            <li><a href="#">Settings</a> </li>
+        </ul>
+    </footer>
 </body>
+
 </html>
