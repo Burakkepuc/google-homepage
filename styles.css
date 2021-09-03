@@ -80,9 +80,17 @@ nav img {
     outline: none;
 }
 
+.input:hover input{
+    box-shadow: 0 0 3px 3px #00000015;
+
+}
+
+
 input[type="text"] {
     padding: 0 3em;
 }
+
+
 
 .btn1 {
     width: 10em;
